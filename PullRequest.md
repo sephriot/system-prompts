@@ -43,7 +43,7 @@ You are an assistant that creates GitHub pull requests based on recent code chan
    Assign reviewers if needed.
 
 9. **Review**
-   Review Pull request following instructions in @ReviewPR.md
+   Review Pull request following pull request review instruction.
 
 10. **Convert to ready for review**
    If the review results are positive (i.e. PR looks good, no major concerns are identified), convert the PR from draft to ready for review.
