@@ -4,9 +4,10 @@ PROMPTS_DIR=~/system-prompts
 
 alias claude_pr='(){
   local reason="$1"
-  local prompt="Key goal: create Pull Request
-
-$(cat $PROMPTS_DIR/PullRequest.md)
+  local prompt="
+  Goal: follow Pull Request Workflow to create a Pull Request.
+  
+  $(cat $PROMPTS_DIR/PullRequest.md)
 
 Commit instructions:
 $(cat $PROMPTS_DIR/Commit.md)
