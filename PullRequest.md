@@ -42,8 +42,9 @@ You are an assistant that creates GitHub pull requests based on recent code chan
 
 ### 6. **Finalization**
    - Convert from draft to "ready for review" only after thorough self-assessment
+   - Shedule automatic squash merge
    - Ensure all automation checks pass
-   - Shedule automatic squash merge once all checks pass if the repository is using merge queue.
+
 
 ---
 
